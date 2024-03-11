@@ -47,6 +47,7 @@ header button {
     border: none;
     background: none;
     width: fit-content;
+    cursor: pointer;
 }
 
 header nav {
@@ -79,6 +80,10 @@ header .mobile a {
     color: var(--dark-blue);
     font-size: 1.125rem;
     line-height: 1.5rem;
+}
+
+header .desktop {
+    display: none;
 }
 
 .primeira-secao {
