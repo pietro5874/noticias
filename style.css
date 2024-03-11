@@ -30,20 +30,20 @@ body.escurecer::before {
     left: 0;
 }
 
-.header-mobile {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
 }
 
-.header-mobile button {
+header button {
     border: none;
     background: none;
     width: fit-content;
 }
 
-.header-mobile nav {
+header nav {
     position: fixed;
     background-color: var(--almost-white);
     right: -16rem;
@@ -59,16 +59,16 @@ body.escurecer::before {
     transition: 0.7s;
 }
 
-.header-mobile nav.abrir {
+header nav.mobile.abrir {
     right: 0;
 }
 
-.header-mobile nav button {
+header nav button {
     align-self: flex-end;
     margin-bottom: 4rem;
 }
 
-.header-mobile nav a {
+header .mobile a {
     text-decoration: none;
     color: var(--dark-blue);
     font-size: 1.125rem;
